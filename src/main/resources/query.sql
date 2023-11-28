@@ -1,0 +1,11 @@
+insert into users.users_table (name, lastName, age) values ('John', 'Bob', 56);
+insert into users.users_table (name, lastName, age) values ('John', 'Bob', 56);
+insert into users.users_table (name, lastName, age) values ('John', 'Bob', 56);
+select * from users.users_table;
+select * from users.users_table where id = 3;
+select name, lastName from users.users_table where id = 2;
+update users.users_table set name = 'Steve', age = 34 where id = 3;
+update users.users_table set name = 'UUU', age = 23 where id = 2;
+select * from users.users_table;
+# delete from users.users_table;
+select * from users.users_table;
