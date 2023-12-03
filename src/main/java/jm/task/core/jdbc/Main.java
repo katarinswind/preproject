@@ -9,12 +9,6 @@ import java.sql.*;
 import java.util.List;
 
 public class Main {
-
-    static final String DB_URL = "jdbc:mysql://localhost/";
-    static final String USER = "root";
-    static final String PASS = "memgnptc";
-
-
     public static void main(String[] args) {
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
@@ -30,6 +24,5 @@ public class Main {
         }
         userService.cleanUsersTable();
         userService.dropUsersTable();
-
     }
 }
