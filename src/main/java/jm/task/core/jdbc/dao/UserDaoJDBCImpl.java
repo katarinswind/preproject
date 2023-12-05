@@ -25,11 +25,9 @@ public class UserDaoJDBCImpl implements UserDao {
 
         try{
 
-            dbStatement.addBatch("CREATE DATABASE if not exists %s;".formatted(DB_NAME));
-            dbStatement.addBatch("CREATE USER IF NOT EXISTS '%s' IDENTIFIED BY '%s';".formatted(DB_USER_NAME, DB_USER_PASS));
-            dbStatement.addBatch("GRANT ALL on %s.* to '%s';".formatted(DB_NAME, DB_USER_NAME));
-            dbStatement.executeBatch();
-            dbStatement.clearBatch();
+            dbStatement.execute("CREATE DATABASE if not exists %s;".formatted(DB_NAME));
+            dbStatement.execute("CREATE USER IF NOT EXISTS '%s' IDENTIFIED BY '%s';".formatted(DB_USER_NAME, DB_USER_PASS));
+            dbStatement.execute("GRANT ALL on %s.* to '%s';".formatted(DB_NAME, DB_USER_NAME));
         }catch (SQLException e) {
             e.printStackTrace();
             System.exit(1);
@@ -39,9 +37,7 @@ public class UserDaoJDBCImpl implements UserDao {
     public void createUsersTable() {
         try{
             String sqlQuery = "CREATE TABLE IF NOT exists %s.%s (\n`id` INT NOT NULL AUTO_INCREMENT,\n`name` VARCHAR(45) NOT NULL,\n`lastName` VARCHAR(45) NOT NULL,\n`age` INT(3) NOT NULL,\nPRIMARY KEY (`id`));".formatted(DB_NAME, DB_TABLE_NAME);
-            dbStatement.addBatch(sqlQuery);
-            dbStatement.executeBatch();
-            dbStatement.clearBatch();
+            dbStatement.execute(sqlQuery);
         }catch (SQLException e) {
             e.printStackTrace();
             System.exit(1);
@@ -50,9 +46,7 @@ public class UserDaoJDBCImpl implements UserDao {
 
     public void dropUsersTable() {
         try{
-            dbStatement.addBatch("drop table if exists `%s`.`%s`;".formatted(DB_NAME, DB_TABLE_NAME));
-            dbStatement.executeBatch();
-            dbStatement.clearBatch();
+            dbStatement.execute("drop table if exists `%s`.`%s`;".formatted(DB_NAME, DB_TABLE_NAME));
         }catch (SQLException e) {
             e.printStackTrace();
             System.exit(1);
@@ -62,9 +56,7 @@ public class UserDaoJDBCImpl implements UserDao {
     public void saveUser(String name, String lastName, byte age) {
         try{
             String sqlQuery = "insert into %s.%s (name, lastName, age) values ('%s', '%s', %d)".formatted(DB_NAME, DB_TABLE_NAME, name, lastName, age);
-            dbStatement.addBatch(sqlQuery);
-            dbStatement.executeBatch();
-            dbStatement.clearBatch();
+            dbStatement.execute(sqlQuery);
         }catch (SQLException e) {
             e.printStackTrace();
             System.exit(1);
