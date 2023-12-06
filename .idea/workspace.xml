@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a234f1f-86fb-4880-a644-de488972e8cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskJDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
@@ -39,6 +41,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YXRUqNaBzYuS2LgPMWH2c2DhyJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.UserServiceTest (1).executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "git-widget-placeholder": "task__2",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.UserServiceTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jm.task.core.jdbc.Main" />
       <module name="preproject" />
@@ -70,6 +77,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,11 +101,32 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest (1)" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-86fc8109" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -101,6 +138,11 @@
       <option name="presentableId" value="Default" />
       <updated>1700669955931</updated>
       <workItem from="1701789934496" duration="270000" />
+      <workItem from="1701795526369" duration="153000" />
+      <workItem from="1701795842131" duration="5000" />
+      <workItem from="1701795888675" duration="31000" />
+      <workItem from="1701795932362" duration="3000" />
+      <workItem from="1701797612163" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1700670004955</created>
@@ -120,7 +162,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -132,66 +174,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="start project" />
     <MESSAGE value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC." />
-    <option name="LAST_COMMIT_MESSAGE" value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="424" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1701182844537">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="424" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701182844537" />
-    <state x="600" y="119" key="CommitChangelistDialog2" timestamp="1701606153548">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="600" y="119" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701606153548" />
-    <state x="748" y="283" width="424" height="483" key="FileChooserDialogImpl" timestamp="1701790257626">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="748" y="283" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701790257626" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1701790327027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701790327027" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1701790327027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701790327027" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1701790327027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701790327027" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1701790327027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701790327027" />
-    <state width="1874" height="342" key="GridCell.Tab.1.bottom" timestamp="1701183046572">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701183046572" />
-    <state width="1874" height="342" key="GridCell.Tab.1.center" timestamp="1701183046572">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="342" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701183046572" />
-    <state width="1874" height="342" key="GridCell.Tab.1.left" timestamp="1701183046572">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="342" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701183046572" />
-    <state width="1874" height="342" key="GridCell.Tab.1.right" timestamp="1701183046572">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="342" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701183046572" />
-    <state x="448" y="103" key="SettingsEditor" timestamp="1701790199534">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="448" y="103" key="SettingsEditor/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701790199534" />
-    <state x="560" y="250" key="Vcs.Push.Dialog.v2" timestamp="1701606155523">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="560" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1280.1024@0.0.1920.1050" timestamp="1701606155523" />
+    <MESSAGE value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC.&#10;remove batch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC.&#10;remove batch" />
   </component>
 </project>
