@@ -32,7 +32,7 @@ public class Util implements Closeable {
             dbStatement = dbConnection.createStatement();
         }catch (SQLException e) {
             e.printStackTrace();
-            System.exit(1);
+//            System.exit(1);
         }
     }
     public Statement getStatement() {

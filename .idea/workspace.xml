@@ -22,11 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a234f1f-86fb-4880-a644-de488972e8cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a234f1f-86fb-4880-a644-de488972e8cc" name="Default Changelist" comment="remove System.exit(1) &amp;&amp; correct code style">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskJDBC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
   "keyToString": {
     "JUnit.UserServiceTest (1).executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "task__2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -64,7 +65,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47126436",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.UserServiceTest (1)">
@@ -142,7 +152,7 @@
       <workItem from="1701795842131" duration="5000" />
       <workItem from="1701795888675" duration="31000" />
       <workItem from="1701795932362" duration="3000" />
-      <workItem from="1701797612163" duration="980000" />
+      <workItem from="1701797612163" duration="4508000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1700670004955</created>
@@ -158,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701182899376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove System.exit(1) &amp;&amp; correct code style">
+      <option name="closed" value="true" />
+      <created>1701872660142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701872660142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +198,11 @@
     <MESSAGE value="start project" />
     <MESSAGE value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC." />
     <MESSAGE value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC.&#10;remove batch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Практическая задача 1.1.4 Java pre-project. Практическая задача 1.1.2. Работа с базой данных c помощью JDBC.&#10;remove batch" />
+    <MESSAGE value="remove System.exit(1) &amp;&amp; correct code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove System.exit(1) &amp;&amp; correct code style" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
